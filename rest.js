@@ -6,13 +6,13 @@ console.log("---REST OPERATOR---");
 // Sum(10, 20);
 // Sum(10, 100, 1000);
 
-function sum(...values){
+function sum(name,...values){
     let total =0;
     for(let n of values){
         total += n;
     }
     return total;
 }
-console.log(total);
-sum(1,2,3);
-sum(12,34,56);
+console.log(sum("glossy",10,20,25));
+
+

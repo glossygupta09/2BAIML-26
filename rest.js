@@ -16,3 +16,15 @@ function sum(name,...values){
 console.log(sum("glossy",10,20,25));
 
 
+
+function sum(name,...values){
+    let total =0;
+    for(let n of values){
+        total += n;
+    }
+    
+ console.log("name:", name);
+    return total;
+    
+}
+console.log("total:", sum("glossy",10,20));

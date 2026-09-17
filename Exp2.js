@@ -35,7 +35,7 @@ class BankAccount{
     }
     BankAccount.bankInfo();
 const acc1 = new BankAccount(1001, "Aman ", 5000);
-const acc2 = new BankAccount(1002, "Priya Singh", 2000);
+const acc2 = new BankAccount(1002, "Priya", 2000);
 console.log("Transactions on Account 1001");
 acc1.deposit(1500);
 acc1.withdraw(2000);

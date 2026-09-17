@@ -22,7 +22,7 @@ class Student{
     }
 }
 let s1 = new Student("Glossy", 76, 85);
-let s2 = new Student("Trisha", 56, 70);
+let s2 = new Student("Trishaa", 56, 70);
 let s3 = new Student("Angel", 30, 90);
 s1.displayResult();
 s2.displayResult();

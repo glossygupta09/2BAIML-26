@@ -40,5 +40,5 @@ p1.display();
 console.log("Discounted Price:"+ p1.getDiscountedPrice(10));
 Product.compareProducts(p1, p2);
 let e1 = new Electronics(103, "Smart TV", 50000, 2);
-console.log("\nElectronics Product:");
+console.log("\nElectronics Product: ");
 e1.display();
